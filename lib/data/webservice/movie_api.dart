@@ -1,4 +1,4 @@
-import 'package:arquitectura/data/webservice/dto/MovieDto.dart';
+import 'package:arquitectura/data/webservice/dto/movie_dto.dart';
 
 abstract class MovieApi{
 

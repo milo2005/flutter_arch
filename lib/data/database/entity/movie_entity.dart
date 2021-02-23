@@ -1,22 +1,22 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/cupertino.dart';
 
 @immutable
-class Movie {
+class MovieEntity {
   final int id;
+  final int movieId;
   final String title;
-  final int score;
   final String overview;
   final String backdrop;
   final String poster;
-  final String releaseDate;
+  final String releaseData;
 
-  Movie({
+  MovieEntity({
     this.id,
+    this.movieId,
     this.title,
-    this.score,
     this.overview,
     this.backdrop,
     this.poster,
-    this.releaseDate,
+    this.releaseData,
   });
 }
