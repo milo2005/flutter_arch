@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 class Movie {
   final int id;
   final String title;
-  final int score;
+  final double score;
   final String overview;
   final String backdrop;
   final String poster;

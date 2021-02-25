@@ -1,6 +1,9 @@
+import 'package:arquitectura/di/app_injector.dart';
+import 'package:arquitectura/presentation/pages/movies/movie_bloc.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  setupInjector();
   runApp(MyApp());
 }
 

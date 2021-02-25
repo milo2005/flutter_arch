@@ -16,6 +16,7 @@ class MovieEntity {
   final String backdrop;
   final String poster;
   final String releaseData;
+  final double score;
 
   MovieEntity({
     this.id,
@@ -25,6 +26,7 @@ class MovieEntity {
     this.backdrop,
     this.poster,
     this.releaseData,
+    this.score
   });
 
   factory MovieEntity.fromJson(Map<String, dynamic> json) => _$MovieEntityFromJson(json);
